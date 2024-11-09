@@ -1,0 +1,35 @@
+#container-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    width: 600px;
+}
+
+#btnSend{
+    background-color: #4169e1;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px 10px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+}
+#btnSend:hover{
+    background-color: #708ce0;
+
+}
+
+.form-label{
+    margin: 20px;
+}
+
+
+#container-form{
+    height: 55vh;
+}

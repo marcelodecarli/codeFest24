@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="./bootstrap-5.3.3-examples.zip" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vem conhecer São Leopoldo</title>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Links úteis
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./mapaHoteis.html" target="_blank">Hoteis</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="./mapaCarro.html">Alugueis de carro</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./formulario.html">Newsletter</a>
+                    </li>
+                </ul>
+                <a class="navbar-brand" target="_blank" href="https://www.saoleopoldo.rs.gov.br/"><img id="imgHeader" src="./images/saoleo.png" alt=""></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores do carrossel -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Slides do carrossel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.saoleopoldo.rs.gov.br/portal/imagens/CidadeUM1528993971768.jpg"
+                    class="d-block w-100" alt="Primeiro Slide">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                    <h5 class="display-1">São Leopoldo vista de cima</h5>
+                    <p class="lead"></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/igrejaRodo.jpeg" class="d-block w-100" alt="Segundo Slide">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                    <h5 class="display-1">Campus I Unisinos e a Igreja Matriz</h5>
+                    <p class="lead"></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/casaImigrante.jpeg" class="d-block w-100" alt="Terceiro Slide">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                    <h5 class="display-1">Casa do Imigrante</h5>
+                    <p class="lead"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles do carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <h1 style="text-align: center; margin-top: 30px;">São Leopoldo tem:</h1>
+
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/trensurb-museu-trem.jpg" class="card-img-top" alt="Imagem Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Museu do trem</h5>
+                        <p class="card-text">
+                            É o local em que, antigamente era a primeira Estação Ferroviária do estado. Foi fundado em
+                            26
+                            de novembro de 1976, com o objetivo de cuidar e preservar as antigas máquinas a vapor e
+                            acervos
+                            da antiga Ferrovia (registros de funcionários, cheques, vagões, carros, livros, revistas,
+                            telégrafos, uniformes, entre outros).
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card1Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/pracaimi.jpeg" class="card-img-top" alt="Imagem Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Praça do Imigrante</h5>
+                        <p class="card-text">É a praça mais antiga da cidade e foi fundada em comemoração ao centenário
+                            da imigração alemã, as margens do Rio dos Sinos, em 1824 -1924, é um marco da cidade e sua
+                            história de construção se funde com a história da própria cidade.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card2Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/padreReus.jpeg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Santuário Padre Reus</h5>
+                        <p class="card-text"> Bom, se você é uma pessoa religiosa e decidiu viajar para São Leopoldo o
+                            Santuário Sagrado Coração de Jesus é o lugar e ponto turístico mais recomendado. Construído
+                            entre os anos 1958 e 1968, é o lugar que abriga o túmulo do falecido Padre Reus e recebe
+                            vários religiosos todos os anos</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card3Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/jardim.jpg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Jardim Botânico </h5>
+                        <p class="card-text"> O Jardim Botânico de São Leopoldo, criado em 1996, é uma área de
+                            preservação e educação ambiental localizada no Rio Grande do Sul. Com o objetivo de
+                            conservar a flora local e promover a sustentabilidade, o jardim abriga uma rica diversidade
+                            de plantas nativas e exóticas.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card4Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/republicaDasCervejas.jpeg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">República das cervejas </h5>
+                        <p class="card-text"> A República da Cerveja foi um movimento cultural que ocorreu em São
+                            Leopoldo (RS) entre os anos 1997 e 2003. Seu nome faz referência a uma "comuna" informal,
+                            onde jovens e estudantes se reuniam para beber cerveja, discutir ideias e celebrar a
+                            liberdade. </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card5Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/churrascaria-schneider.jpg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cherrascaria Schineider </h5>
+                        <p class="card-text">
+                            Churrascaria Shneider , é conhecido pela sua comida típica alemã e gaúcha. Oferece pratos
+                            como galeto, linguiças, chucrute, feijão tropeiro e outras delícias da culinária regional.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card6Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/funny.jpeg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Funny Feelings </h5>
+                        <p class="card-text">
+                            O restaurante Funny Feelings em São Leopoldo (RS) foi um espaço gastronômico e cultural que
+                            se
+                            destacou por sua proposta irreverente e descontraída, oferecendo não apenas uma experiência
+                            culinária, mas também um ambiente artístico e alternativo.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card7Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/unisinos.jpg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Unisinos </h5>
+                        <p class="card-text">
+                            A Unisinos (Universidade do Vale do Rio dos Sinos) é uma universidade privada localizada em
+                            São Leopoldo (RS), fundada em 1969. Reconhecida por sua excelência acadêmica, a Unisinos
+                            oferece cursos de graduação, pós-graduação e programas de pesquisa em diversas áreas, como
+                            humanas, sociais, exatas e biológicas.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card8Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./images/senac.jpg" class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Senac </h5>
+                        <p class="card-text">
+                            Senac: Uma das principais unidades de ensino é o famoso Senac (Serviço Nacional de
+                            Aprendizagem Comercial), lá eles oferecem cursos profissionalizantes nas áreas de tecnologia
+                            da Informação, Comércio, Comunicação, Gestão, Saúde, entre outras. 
+
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card9Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Modal para o Card 1 -->
+    <div class="modal fade" id="card1Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card1ModalLabel">Museu do trem</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>
+                        É o local em que, antigamente era a primeira Estação Ferroviária do estado. Foi fundado em 26
+                        de novembro de 1976, com o objetivo de cuidar e preservar as antigas máquinas a vapor e acervos
+                        da antiga Ferrovia (registros de funcionários, cheques, vagões, carros, livros, revistas,
+                        telégrafos, uniformes, entre outros). Lá você poderá aproveitar para conhecer como eram as
+                        locomotivas, ver a história dos primeiros maquinistas, e aproveitar para entender um pouco a
+                        evolução das máquinas. É
+                        localizado na Rua Lindolfo Collor, 40, no centro da cidade - junto da atual Estação de São
+                        Leopoldo da Trensurb.
+                        <a href="https://www.saoleopoldo.rs.gov.br/conteudo/1647/1/1243?titulo=MUSEU+DO+TREM"
+                            target="_blank" rel="noopener noreferrer">Site oficial</a>
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 2 -->
+    <div class="modal fade" id="card2Modal" tabindex="-1" aria-labelledby="card2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card2ModalLabel">Praça do Imigrante</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    É a praça mais antiga da cidade e foi fundada em comemoração ao centenário da imigração alemã, as
+                    margens do Rio dos Sinos, em 1824 -1924, é um marco da cidade e sua história de construção se funde
+                    com a história da própria cidade. Primeiramente foi construído o Monumento, inaugurado em 20 de
+                    setembro de 1924, mesmo não estando concluído ainda. E em 1934 sua construção estava completa, com
+                    jardins lindos e com bancos adoráveis para passar o tempo livre. É localizada na Rua Dom João Becker
+                    - Centro de São Leopoldo, RS 93010 - 010. Além de ser um ótimo lugar para conhecer e se conectar com
+                    a história da cidade, ela fica em um lugar estratégico, ao lado da Avenida Independência, onde o
+                    comércio é centralizado. E algo muito interessante é que há pouco tempo ela passou por processos de
+                    revitalização para o bicentenário de São Leopoldo.
+                </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 3 -->
+    <div class="modal fade" id="card3Modal" tabindex="-1" aria-labelledby="card3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card3ModalLabel">Santuário Padre Reus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    Bom, se você é uma pessoa religiosa e decidiu viajar para São Leopoldo o Santuário do Sagrado
+                    Coração de Jesus é o lugar e ponto turístico mais recomendado. Construído entre os anos 1958 e 1968,
+                    é o lugar que abriga o túmulo do falecido Padre Reus e recebe vários religiosos todos os anos.
+                    Localizado na Rua Padre Werner - São Leopoldo - RS, 93020-190, é uma construção cheia de história e
+                    espiritualidade, onde a arquitetura é rica em detalhes, esculturas, imagens religiosas e pinturas.
+                    <a href="https://padrereus.org.br/" target="_blank" rel="noopener noreferrer">Site oficial</a>
+                </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 4 -->
+
+    <div class="modal fade" id="card4Modal" tabindex="-1" aria-labelledby="card4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card4ModalLabel">Jardim Botanico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    O Jardim Botânico de São Leopoldo, criado em 1996, é uma área de preservação e educação ambiental
+                    localizada no Rio Grande do Sul. Com o objetivo de conservar a flora local e promover a
+                    sustentabilidade, o jardim abriga uma rica diversidade de plantas nativas e exóticas. Ele oferece
+                    atividades educativas, como visitas guiadas e programas para escolas, e é um espaço de lazer com
+                    trilhas, jardins e áreas para piqueniques. Além disso, o Jardim Botânico realiza pesquisas
+                    científicas e promove a conscientização sobre a importância da preservação ambiental. É um
+                    importante ponto de convivência com a natureza e de valorização da biodiversidade regional.
+                    Localizado na Avenida Imperatriz Dona Leopoldina, 900 - Pinheiro, São Leopoldo - RS, 93042-030 . <a
+                        href="https://www.saoleopoldo.rs.gov.br/conteudo/2875/1/26?titulo=JB+-+JARDIM+BOT%C3%82NICO"
+                        target="_blank" rel="noopener noreferrer">Site oficial</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para o Card 5 -->
+
+    <div class="modal fade" id="card5Modal" tabindex="-1" aria-labelledby="card5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card5ModalLabel">República das cervejas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    A República da Cerveja foi um movimento cultural que ocorreu em São Leopoldo (RS) entre os anos 1997
+                    e 2003. Seu nome faz referência a uma "comuna" informal, onde jovens e estudantes se reuniam para
+                    beber cerveja, discutir ideias e celebrar a liberdade. O movimento representava uma forma de
+                    resistência cultural e política, desafiando normas sociais e oferecendo um espaço alternativo ao
+                    lazer convencional da época. A República da Cerveja também ajudou a popularizar o consumo de
+                    cervejas locais e alternativas, muito antes do crescimento da cerveja artesanal no Brasil. <a
+                        href="https://www.instagram.com/explore/locations/123016642/republica-das-cervejas/"
+                        target="_blank" rel="noopener noreferrer">Siga eles no instagram.</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal para o Card 6 -->
+
+    <div class="modal fade" id="card6Modal" tabindex="-1" aria-labelledby="card6ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card6ModalLabel">Churrascaria Schneider</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<p>
+                    Churrascaria Shneider , é conhecido pela sua comida típica alemã e gaúcha. Oferece pratos como
+                    galeto, linguiças, chucrute, feijão tropeiro e outras delícias da culinária regional. O ambiente é
+                    rústico e acolhedor, ideal para refeições em família. O atendimento é elogiado, e o restaurante é
+                    uma ótima opção para quem busca uma experiência gastronômica tradicional no sul do Brasil. Além
+                    disso, é dentro de uma casa com arquitetura tradicional. Localizada na Av. Getúlio Vargas, 3815 -
+                    São João Batista, São Leopoldo - RS, 93025-000. <a href="https://www.churrascariaschneider.com.br/"
+                        target="_blank" rel="noopener noreferrer">Site oficial</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 7 -->
+
+    <div class="modal fade" id="card7Modal" tabindex="-1" aria-labelledby="card7ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card7ModalLabel">Funny Feelings</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<p>
+                    O restaurante Funny Feelings em São Leopoldo (RS) foi um espaço gastronômico e cultural que se
+                    destacou por sua proposta irreverente e descontraída, oferecendo não apenas uma experiência
+                    culinária, mas também um ambiente artístico e alternativo. Além da comida, o Funny Feelings também
+                    se tornou conhecido por seu ambiente único, frequentemente promovendo eventos culturais, música ao
+                    vivo e uma atmosfera criativa. Esse espaço refletia a cena alternativa da cidade, misturando arte,
+                    gastronomia e boa música, tornando-se um marco na vida cultural de São Leopoldo. Localizado na R.
+                    Lindolfo Collor, 279 - Centro, São Leopoldo - RS. <a
+                        href="https://www.churrascariaschneider.com.br/" target="_blank" rel="noopener noreferrer">Site
+                        oficial</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 8 -->
+
+    <div class="modal fade" id="card8Modal" tabindex="-1" aria-labelledby="card8ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card8ModalLabel">Unisinos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+<p>
+                    A Unisinos (Universidade do Vale do Rio dos Sinos) é uma universidade privada localizada em
+                    São Leopoldo (RS), fundada em 1969. Reconhecida por sua excelência acadêmica, a Unisinos
+                    oferece cursos de graduação, pós-graduação e programas de pesquisa em diversas áreas, como
+                    humanas, sociais, exatas e biológicas. A universidade tem forte presença na formação de
+                    profissionais no estado e é um importante centro de inovação e desenvolvimento regional.
+                    Além disso, a Unisinos é conhecida por sua infraestrutura moderna, parcerias com empresas e
+                    destaque em áreas como tecnologia e negócios. Localizada na Av. Unisinos, 950 - Cristo Rei,
+                    São Leopoldo. <a href="https://www.unisinos.br/" target="_blank" rel="noopener noreferrer">Site
+                        oficial</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 9 -->
+
+    <div class="modal fade" id="card9Modal" tabindex="-1" aria-labelledby="card9ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card9ModalLabel">SenacF</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>
+                    Senac: Uma das principais unidades de ensino é o famoso Senac (Serviço Nacional de Aprendizagem
+                    Comercial), lá eles oferecem cursos profissionalizantes nas áreas de tecnologia da Informação,
+                    Comércio, Comunicação, Gestão, Saúde, entre outras. A instituição é referência na educação
+                    profissional no Brasil. Foi fundado em 6 de novembro de 1996 e já ganhou vários prêmios para
+                    reconhecimento. Para conhecer essa instituição incrível, sua localização fica na Rua Lindolfo
+                    Collor, 835 - Centro, São Leopoldo - RS, 93010-080
+                    <a href="https://www.senacrs.com.br/" target="_blank" rel="noopener noreferrer">Site
+                        oficial</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© Prefeitura de São Leopoldo</p>
+            <a href="https://www.saoleopoldo.rs.gov.br/" target="_blank"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+
+                <img id="imgFooter" src="./images/saoleo.png" class="bi me-2" width="40" height="40" alt="">
+
+            </a>
+
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="./formulario.html"
+                        class="nav-link px-2 text-body-secondary">Newsletter</a></li>
+                <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> -->
+            </ul>
+        </footer>
+    </div>
+
+
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
